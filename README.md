@@ -21,19 +21,25 @@ Solution: remove `Orange-OpenSource/pn` from the `repos` variable.
 
 * Create a dummy device profile script:
 
-    sudo touch /usr/bin/sxmo_deviceprofile_pinenoterockchip.sh
-    sudo chmod +x /usr/bin/sxmo_deviceprofile_pinenoterockchip.sh
+```
+sudo touch /usr/bin/sxmo_deviceprofile_pinenoterockchip.sh
+sudo chmod +x /usr/bin/sxmo_deviceprofile_pinenoterockchip.sh
+```
 
 * Edit `/etc/X11/xdm/Xsetup_0` and comment these lines:
 
-    sxmo_setpineled red 0
-    sxmo_setpineled blue 0
-    sxmo_setpineled green 0
-    echo 750 > /sys/devices/platform/backlight/backlight/backlight/brightness #scale goes from 0-1000 on kernel 5.8
+```
+sxmo_setpineled red 0
+sxmo_setpineled blue 0
+sxmo_setpineled green 0
+echo 750 > /sys/devices/platform/backlight/backlight/backlight/brightness #scale goes from 0-1000 on kernel 5.8
+```
 
 ### Missing packages
 
-    sudo pacman -S xprintidle
+```
+sudo pacman -S xprintidle
+```
 
 ### Status bar
 
@@ -58,7 +64,9 @@ Add the file to your home folder.
 
 Install yad:
 
-    sudo pacman -S yad
+```
+sudo pacman -S yad
+```
 
 Follow the instructions in the [README](https://github.com/alamedyang/pinenote-backlights/blob/main/README.md) to update the `sudoers` file.
 
