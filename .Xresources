@@ -2,7 +2,7 @@
 ! Custom Theme for the PineNote
 !========================================
 
-!--Colors and fonts----------------------
+!-- Colors and fonts -----------------------------------------------------------
 
 #define black1 #000000
 #define gray1  #505050
@@ -12,7 +12,7 @@
 
 #define font1 FiraMono Nerd Font Mono:style=Regular
 
-!--dmenu settings------------------------
+!-- dmenu settings -------------------------------------------------------------
 
 dmenu.font: font1:size=14
 
@@ -24,19 +24,19 @@ dmenu.background: gray3
 dmenu.selforeground: white1
 dmenu.selbackground: gray1
 
-!Letters matching search string
+! Letters matching search string
 dmenu.highlightforeground: white1
 dmenu.highlightbackground: gray1
 
-!Letters matching search string while item is active
+! Letters matching search string while item is active
 dmenu.selhighlightforeground: black1
 dmenu.selhighlightbackground: gray2
 
-!Selected entries with Ctrl-Enter
+! Selected entries with Ctrl-Enter
 dmenu.outforeground: black1
 dmenu.outbackground: gray2
 
-!--dwm settings------------------------
+!-- dwm settings ---------------------------------------------------------------
 
 dwm.font: font1:size=14
 
@@ -44,3 +44,45 @@ dwm.foreground: black1
 dwm.background: white1
 dwm.selforeground: black1
 dwm.selbackground: gray2
+
+!-- svkbd settings -------------------------------------------------------------
+
+svkbd.font: font1:size=16
+
+! Outer keys
+svkbd.foreground: black1
+svkbd.background: gray3
+
+svkbd.shiftforeground: gray1
+svkbd.shiftbackground: gray3
+
+! Alphabetic keys
+svkbd.ABCforeground: black1
+svkbd.ABCbackground: gray3
+
+svkbd.ABCshiftforeground: gray1
+svkbd.ABCshiftbackground: gray3
+
+! Pressed keys
+svkbd.pressforeground: white1
+svkbd.pressbackground: black1
+
+svkbd.pressshiftforeground: white1
+svkbd.pressshiftbackground: black1
+
+! Highlighted keys
+! On e-ink, it is preferrable to disable highlighting
+svkbd.highlightforeground: black1
+svkbd.highlightbackground: gray3
+
+svkbd.highlightshiftforeground: black1
+svkbd.highlightshiftbackground: gray3
+
+svkbd.overlayforeground: black1
+svkbd.overlaybackground: gray3
+
+svkbd.overlayshiftforeground: black1
+svkbd.overlayshiftbackground: gray3
+
+svkbd.windowforeground: black1
+svkbd.windowbackground: gray1

@@ -1,4 +1,4 @@
-# Maintainer: zaoqi <zaomir@outlook.com>
+# Based on the PKGBUILD for the AMD64 architecture (by zaoqi <zaomir@outlook.com>)
 
 pkgname=koreader-bin
 pkgver=2022.01

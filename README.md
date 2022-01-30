@@ -36,18 +36,16 @@ Solution: remove `Orange-OpenSource/pn` from the `repos` variable.
 ### Status bar
 
 For some reason, the `start` hook is not run automatically.
+The status bar only shows the text "dwm-6.2".
 
 TODO Add solution.
 
 Custom settings
 ---------------
 
-TODO Keyboard color scheme
 TODO Setup autologin (using tiny-dm instead of xdm)
 TODO Input handlers
-TODO Conky
-TODO Customize main menu
-TODO Add applications
+TODO Add applications to menu
 
 ### Color scheme
 
