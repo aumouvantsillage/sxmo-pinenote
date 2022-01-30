@@ -6,7 +6,7 @@ This repository contains my configuration files for SXMO on the PineNote.
 Resources used:
 
 * [Instructions to install Archlinux on the Pinenote](https://github.com/DorianRudolph/pinenotes), by Dorian Rudolph.
-* My setup is based on the [Manjaro minimal image for Quartz64](https://github.com/manjaro-arm/quartz64-bsp-images/releases) and the [Linux kernel branch maintained by Smauel](https://github.com/smaeul/linux/tree/rk356x-ebc-dev).
+* My setup is based on the [Manjaro minimal image for Quartz64](https://github.com/manjaro-arm/quartz64-bsp-images/releases) and the [Linux kernel branch maintained by smaeul](https://github.com/smaeul/linux/tree/rk356x-ebc-dev).
 * SXMO can be installed using the script [sxmo-alarm](https://github.com/justinesmithies/sxmo-alarm), by Justine Smithies.
 * [Backlight controls](https://github.com/alamedyang/pinenote-backlights) by alamedyang
 
