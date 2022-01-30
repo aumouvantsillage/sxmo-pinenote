@@ -1,6 +1,8 @@
 SXMO on the PineNote
 ====================
 
+This repository contains my configuration files for SXMO on the PineNote.
+
 Resources used:
 
 * [Instructions to install Archlinux on the Pinenote](https://github.com/DorianRudolph/pinenotes), by Dorian Rudolph.
@@ -49,8 +51,8 @@ TODO Add applications to menu
 
 ### Color scheme
 
-The `.Xresources` file defines a color scheme for DWM and DMENU.
-Add it to your home folder.
+The `.Xresources` file defines a color scheme for dwm, dmenu and svkbd.
+Add the file to your home folder.
 
 ### Frontlight control
 
