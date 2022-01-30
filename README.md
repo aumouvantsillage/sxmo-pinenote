@@ -46,14 +46,14 @@ sudo pacman -S xprintidle
 For some reason, the `start` hook is not run automatically.
 The status bar only shows the text "dwm-6.2".
 
-TODO Add solution.
+- [ ] Add solution.
 
 Custom settings
 ---------------
 
-TODO Setup autologin (using tiny-dm instead of xdm)
-TODO Input handlers
-TODO Add applications to menu
+- [ ] Setup autologin (using tiny-dm instead of xdm)
+- [ ] Input handlers
+- [ ] Add applications to menu
 
 ### Color scheme
 
