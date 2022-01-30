@@ -31,5 +31,15 @@ Solution: remove `Orange-OpenSource/pn` from the `repos` variable.
 Custom settings
 ---------------
 
+TODO Keyboard color scheme
 TODO Setup autologin (using tiny-dm instead of xdm)
 TODO Install frontlight setting script
+TODO Input handlers
+TODO Conky
+TODO Customize main menu
+TODO Add applications
+
+### Color scheme
+
+The `.Xresources` file defines a color scheme for DWM and DMENU.
+Add it to your home folder.

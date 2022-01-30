@@ -1,0 +1,46 @@
+!========================================
+! Custom Theme for the PineNote
+!========================================
+
+!--Colors and fonts----------------------
+
+#define black1 #000000
+#define gray1  #505050
+#define gray2  #d0d0d0
+#define gray3  #e0e0e0
+#define white1 #ffffff
+
+#define font1 FiraMono Nerd Font Mono:style=Regular
+
+!--dmenu settings------------------------
+
+dmenu.font: font1:size=14
+
+! Normal
+dmenu.foreground: black1
+dmenu.background: gray3
+
+! Current active item
+dmenu.selforeground: white1
+dmenu.selbackground: gray1
+
+!Letters matching search string
+dmenu.highlightforeground: white1
+dmenu.highlightbackground: gray1
+
+!Letters matching search string while item is active
+dmenu.selhighlightforeground: black1
+dmenu.selhighlightbackground: gray2
+
+!Selected entries with Ctrl-Enter
+dmenu.outforeground: black1
+dmenu.outbackground: gray2
+
+!--dwm settings------------------------
+
+dwm.font: font1:size=14
+
+dwm.foreground: black1
+dwm.background: white1
+dwm.selforeground: black1
+dwm.selbackground: gray2
