@@ -6,6 +6,7 @@ Resources used:
 * [Instructions to install Archlinux on the Pinenote](https://github.com/DorianRudolph/pinenotes), by Dorian Rudolph.
 * My setup is based on the [Manjaro minimal image for Quartz64](https://github.com/manjaro-arm/quartz64-bsp-images/releases) and the [Linux kernel branch maintained by Smauel](https://github.com/smaeul/linux/tree/rk356x-ebc-dev).
 * SXMO can be installed using the script [sxmo-alarm](https://github.com/justinesmithies/sxmo-alarm), by Justine Smithies.
+* [Backlight controls](https://github.com/alamedyang/pinenote-backlights) by alamedyang
 
 Issues and workarounds
 ----------------------
@@ -28,12 +29,21 @@ Solution: remove `Orange-OpenSource/pn` from the `repos` variable.
     sxmo_setpineled green 0
     echo 750 > /sys/devices/platform/backlight/backlight/backlight/brightness #scale goes from 0-1000 on kernel 5.8
 
+### Missing packages
+
+    sudo pacman -S xprintidle
+
+### Status bar
+
+For some reason, the `start` hook is not run automatically.
+
+TODO Add solution.
+
 Custom settings
 ---------------
 
 TODO Keyboard color scheme
 TODO Setup autologin (using tiny-dm instead of xdm)
-TODO Install frontlight setting script
 TODO Input handlers
 TODO Conky
 TODO Customize main menu
@@ -43,3 +53,14 @@ TODO Add applications
 
 The `.Xresources` file defines a color scheme for DWM and DMENU.
 Add it to your home folder.
+
+### Frontlight control
+
+Install yad:
+
+    sudo pacman -S yad
+
+Follow the instructions in the [README](https://github.com/alamedyang/pinenote-backlights/blob/main/README.md) to update the `sudoers` file.
+
+Copy the script [backlight.sh](https://github.com/alamedyang/pinenote-backlights/blob/main/backlight.sh)
+to `$HOME/.config/sxmo/userscripts`.
